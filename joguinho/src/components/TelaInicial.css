@@ -1,0 +1,72 @@
+.Agora-vai-funcionar{
+
+
+    height: 98vh;
+        background-color: #ffb3c6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      flex-direction: column;
+      background-image: url('./FotinhoTest3.png');
+     background-position: center;
+      
+    }.emoji{
+        font-size: 200px;
+        background-color: #fb6f92;
+        border-radius: 25px;
+        box-shadow: 0 0 10px rgba(22, 0, 0, 0.5);
+         z-index: 111; 
+    
+        background-color: #ffbbbb50;
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+    }
+    .botao-legalzinho{
+
+       margin-top: 50px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+.botao-legalzinho{
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.botao-legalzinho:disabled {
+  pointer-events: none;
+}
+
+.botao-legalzinho:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.botao-legalzinho:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+    
+    
