@@ -3,6 +3,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(235, 221, 31);
-    height: 50px;
+    background-color: #FBD27B;
+    height: 55px;
+    font-size: 45px;
+    font-family: "Goudy Medieval";
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 56px;
+    color: #FFD700; /* dourado */
+    text-shadow: 0 0 10px #000000, 0 0 20px #050505, 0 0 30px #FF4500, 0 0 40px #FF4500;
+    animation: pulse 1.5s infinite;
 }
