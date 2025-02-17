@@ -10,6 +10,6 @@
     font-family: 'UnifrakturCook', cursive;
     font-size: 56px;
     color: #FFD700; /* dourado */
-    text-shadow: 0 0 10px #000000, 0 0 20px #050505, 0 0 30px #FF4500, 0 0 40px #FF4500;
+    text-shadow: 0 0 10px #000000, 0 0 20px #050505, 0 0 30px #ebebeb, 0 0 40px #e6e6e6;
     animation: pulse 1.5s infinite;
 }
